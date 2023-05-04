@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinesweeperGame", "MinesweeperGame\MinesweeperGame.csproj", "{98B29D3E-AC84-4AF8-8FD6-328D3819A52D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5E05CD98-D58A-401B-B659-FAC4D919D615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinesweeperTechTest_UnitTests", "MinesweeperTechTest_UnitTests\MinesweeperTechTest_UnitTests.csproj", "{1B68D31E-50AD-4E66-9ED5-15648802E7A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinesweeperTechTest_IntegrationTests", "MinesweeperTechTest_IntegrationTests\MinesweeperTechTest_IntegrationTests.csproj", "{DC745D58-01B9-4C65-A769-949A35BC0834}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98B29D3E-AC84-4AF8-8FD6-328D3819A52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B29D3E-AC84-4AF8-8FD6-328D3819A52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B29D3E-AC84-4AF8-8FD6-328D3819A52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B29D3E-AC84-4AF8-8FD6-328D3819A52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B68D31E-50AD-4E66-9ED5-15648802E7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B68D31E-50AD-4E66-9ED5-15648802E7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B68D31E-50AD-4E66-9ED5-15648802E7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B68D31E-50AD-4E66-9ED5-15648802E7A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC745D58-01B9-4C65-A769-949A35BC0834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC745D58-01B9-4C65-A769-949A35BC0834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC745D58-01B9-4C65-A769-949A35BC0834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC745D58-01B9-4C65-A769-949A35BC0834}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B68D31E-50AD-4E66-9ED5-15648802E7A8} = {5E05CD98-D58A-401B-B659-FAC4D919D615}
+		{DC745D58-01B9-4C65-A769-949A35BC0834} = {5E05CD98-D58A-401B-B659-FAC4D919D615}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6276A4E9-CEE5-44A4-9C95-1366D8AE5A8B}
+	EndGlobalSection
+EndGlobal
